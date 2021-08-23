@@ -1,0 +1,46 @@
+ @import url(/css/styles.css);
+ /* Project Page Styles */
+ .work-active {
+     text-decoration: underline;
+     color: rgba(115, 128, 141, 1);
+ }
+ .body-project {
+    background-image: none;
+  }
+.project-container {
+    max-width: 80%;
+    margin: auto;
+}
+.before-after {
+    display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: auto;
+    
+}
+.before-after-background {
+    background-color: #CFF1EA;
+}
+.before-after-background-body {
+    background-color: #CFF1EA;
+}
+.before-after-container {
+    max-width: 80%;
+    margin: auto;
+}
+.before-after img {
+    max-width: 45%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    margin: 40px; 
+}
+.img-process {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.img-process img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    margin: 40px;
+}
