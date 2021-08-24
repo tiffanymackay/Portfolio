@@ -261,6 +261,17 @@ footer {
     header {
         padding-bottom: 50px;
     }
+    .hello {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    h3 {
+        text-align: center;
+        line-height: normal;
+    }
+    p {
+        text-align: center;
+    }
     .container {
         display: block;
         width: 60%;
@@ -272,4 +283,47 @@ footer {
         padding-top: 30px;
         padding-left: 0;
     }
+    .button {
+        margin: auto;
+        display: block;
+        text-align: center;
+        width: 50%;
+    }
 }
+
+
+@media (max-width: 630px) {
+    nav ul {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 1rem;
+    }
+    .work-grid {
+        grid-template-columns: 1fr;
+    }
+    .work-grid img {
+        text-align: center;
+    }
+    .work-grid a {
+        text-align: center;
+    }
+    q {
+        padding: 50px;
+    }
+    .container {
+        width: 80%;
+    }
+    .text-wall {
+        width: 89%;
+    }
+    .container img {
+        max-width: 90%;
+    }
+    nav.header-links {
+        padding: 10px;
+        margin: 10px;
+    }
