@@ -200,9 +200,8 @@ footer {
     justify-content: space-between;
     max-width: 400px;
     margin: auto;
-    padding-bottom: 20px;
+    padding: 20px 20px 30px 20px;
 }
-
 
 /* Back to top button styles */
 .display-button {
