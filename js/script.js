@@ -38,7 +38,11 @@
         //To close mobile menu
         const navLink = document.querySelectorAll(".nav-link");
 
-        navLink.forEach(n => n.addEventListener("click", closeMenu));
+       // navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+        for (let i = 0; i < navLink.length; i++) {
+            navLink[i].addEventListener("click", closeMenu)
+        }
 
         function closeMenu() {
             hamburger.classList.remove("active");
