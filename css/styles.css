@@ -151,6 +151,9 @@ ul a:hover {
     grid-auto-rows: minmax(100px, auto);
     justify-items: center;
 }
+.work-grid a {
+    text-align: center;
+}
 .work-grid img {
     max-width: 80%;
 }
