@@ -246,6 +246,9 @@ footer {
     
 }
 @media (max-width: 1040px) {
+    body {
+        background-size: 130%;
+    }
     h2 {
         font-size: 2rem;
     }
@@ -304,14 +307,50 @@ footer {
 
 
 @media (max-width: 630px) {
-    nav ul {
-        display: none;
+    body {
+        background-size: 250%;
+    }
+    .nav.header-links {
+        padding: 5%;
     }
     .hamburger {
         display: block;
         background: none;
         border: none;
-        font-size: 1rem;
+        font-size: 1.5rem;
+    }
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color:#CFF1EA;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-menu.active {
+        left: 0;
+        margin-top: 40px;
+    }
+    li {
+        padding: 20px 0px;
+    }
+
+    h1 {
+        padding: 10px;
+        margin: 10px 0px;
+    }
+    header {
+        padding: 10px;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+
     }
     .work-grid {
         grid-template-columns: 1fr;
@@ -333,9 +372,5 @@ footer {
     }
     .container img {
         max-width: 90%;
-    }
-    nav.header-links {
-        padding: 10px;
-        margin: 10px;
     }
 }
