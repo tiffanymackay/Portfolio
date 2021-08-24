@@ -150,6 +150,7 @@ ul a:hover {
     column-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     justify-items: center;
+    text-align: center;
 }
 .work-grid img {
     max-width: 80%;
