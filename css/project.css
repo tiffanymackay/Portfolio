@@ -1,7 +1,6 @@
  @import url(../css/styles.css);
  /* Project Page Styles */
  .work-active {
-     text-decoration: underline;
      color: rgba(115, 128, 141, 1);
  }
  .body-project {
