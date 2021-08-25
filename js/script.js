@@ -41,7 +41,7 @@
        // navLink.forEach(n => n.addEventListener("click", closeMenu));
 
         for (let i = 0; i < navLink.length; i++) {
-            navLink[i].addEventListener("click", closeMenu)
+                                                                                    navLink[i].addEventListener("click", closeMenu)
         }
 
         function closeMenu() {
