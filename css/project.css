@@ -10,6 +10,9 @@
     max-width: 80%;
     margin: auto;
 }
+.left-project {
+    text-align: left;
+}
 .before-after {
     display: flex;
     justify-content: space-around;
@@ -49,4 +52,46 @@ figcaption {
     font-style: italic;
     margin: auto;
     padding-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+
+    .before-after {
+        display: block;
+        max-width: 80%;
+        text-align: center;
+    }
+    .before-after img {
+        max-width: 70%;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        margin: 20px;
+    }
+
+}
+
+@media (max-width: 570px) {
+
+    .before-after {
+        padding-bottom: 20px;
+    }
+    .left-project {
+        padding-top: 10px;
+    }
+    .img-process {
+        max-width: 100%;
+    }
+    .img-process img {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+    .before-after img {
+        margin: 10px auto;
+        max-width: 100%;
+    }
+
+    figcaption {
+        max-width: 100%;
+    }
 }
