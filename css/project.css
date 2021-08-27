@@ -53,11 +53,11 @@ figcaption {
     margin: auto;
     padding-bottom: 20px;
 }
-.github-link {
+.github-link a {
     color:mediumpurple;
     font-weight: 600;
 }
-.github-link:hover {
+.github-link a:hover {
     color:darkgray
 }
 

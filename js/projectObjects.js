@@ -6,7 +6,7 @@ const projects = {
     },
     artistPortfolio : {
         name: `Artist Portfolio` ,
-        text: `An artist template page created from napkin sketches, a mockup, HTML and CSS.`,
+        text: `An artist template page created from napkin sketches, a mockup, HTML and CSS. I made two designs before settling on a center header layout that is popular amongst artists`,
         process: `💡 Process: Mood board > Napkin Sketches > Mockup > Code > Validate > Launch`, 
     }
 }

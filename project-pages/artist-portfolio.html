@@ -33,9 +33,18 @@
             Artist Portfolio
         </h2>
         <p class="left-project">
-            <span class="artist-portfolio-text"> 
-                An artist template page created from napkin sketches, a mockup, HTML and CSS.
+            GitHub Link:
+            <span class="github-link"> 
+                <span class="artist-portfolio-github-link">
+                    <a href="https://tiffanymackay.github.io/Artist-portfolio/index.html" target="_blank">
+                        Artist Portfolio Webpage ↗️ 
+                    </a>
+                </span>
             </span>
+            <br>
+            <div class="artist-portfolio-text"> 
+                An artist portfolio website page created from napkin sketches, a mockup, HTML and CSS. I created various sketches and two mockups before settling on a design. This process aided me in finalizing design decisions and trying new ideas. The main sections of the portfolio page is made with grid layout but I used flex-box in the navigation. 
+            </div>
             <br><br>
             <strong class="artist-portfolio-process">
                 💡 Process: Mood board > Napkin Sketches > Mockup > Code > Validate > Launch
@@ -50,8 +59,8 @@
     </div>
     <div class="before-after-background">
             <div class="before-after">
-                <img src="../images/recipe-before.png" alt="Recipe before sketches">
-                <img src="../images/recipe-after.png" alt="Recipe after final">
+                <img src="../images/art-images/art-sketches.png" alt="Art portfolio before sketches" class="artist-portfolio-img1">
+                <img src="../images/art-images/art-after.png" alt="Art portfolio after final" class="artist-portfolio-img2">
             </div>
     </div>
     <div class="before-after-container">
@@ -61,21 +70,26 @@
     </div>
     <div class="before-after-background-body">
         <div class="img-process">
-            <figure><img src="../images/recipe-mockup.png" alt="Mockup of recipe design">
+            <figure><img src="../images/art-images/art-mid.png" alt="The original mockup" class="artist-portfolio-figure1">
                 <figcaption>
-                    Figma mockup and organization. 
-                    <br>I worked through different designs until both the image and recipe text were the primary focus of the page. 
+                    First design that was then improved upon below. Elements that were kept were a four grid template, white background, and simple navigation layout.
                 </figcaption>
             </figure>
-            <figure><img src="../images/recipe-html.png" alt="The html coding">
+            <figure><img src="../images/art-images/art-mockup.png" alt="Mockup of artist portfolio design" class="artist-portfolio-figure2">
                 <figcaption>
-                    HTML in Visual Studio Code 
+                    Final mockup of landing and about pages.  
                 </figcaption>
             </figure>
-            <figure><img src="../images/recipe-styles.png" alt="The css styling of the recipe page">
+            <figure><img src="../images/art-images/art-html.png" alt="The html of the portfolio page" class="artist-portfolio-figure3">
+                <figcaption>
+                    HTML in Visual Studio Code. 
+                    <br>I first sectioned out my header, main, and footer then built their contents.
+                </figcaption>
+            </figure>
+            <figure><img src="../images/art-images/art-css.png" alt="The css styling of the recipe page" class="artist-portfolio-figure4">
                 <figcaption>
                     CSS in Visual Studio Code. 
-                    <br>I used a style reset to void any browser styling.
+                    <br>I used a style reset to void any browser styling and organized my document with comments.
                 </figcaption>
             </figure>
         </div>
@@ -84,11 +98,14 @@
         <h3 class="left-project">
             Results
         </h3>
-            <p class="left-project">
-                ☑️ Focused on creating a responsive page using flex-box and media queries
-                <br>☑️ Implemented organization and structure for a streamlined process
-                <br>↗️ GitHub: 
-            </p>
+            <div class="left-project">
+                <span class="artist-portfolio-results">
+                    <p>
+                        ☑️ Focused on creating a responsive page using flex-box and media queries
+                        <br>☑️ Implemented organization and structure for a streamlined process
+                    </p>
+                </span>
+            </div>
             <br>
         </ul>
     </div>
@@ -108,6 +125,6 @@
         <small>Copyright © 2021. Tiffany Mackay. All rights reserved.</small>
     </footer>
     <script src="../js/script.js"></script>
-    <script type="module" src="/js/artistPortfolio.js"></script>
+    <script type="module" src="../js/artistPortfolio.js"></script>
 </body>
 </html>
