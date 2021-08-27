@@ -53,6 +53,13 @@ figcaption {
     margin: auto;
     padding-bottom: 20px;
 }
+.github-link {
+    color:mediumpurple;
+    font-weight: 600;
+}
+.github-link:hover {
+    color:darkgray
+}
 
 /* Responsive Styles */
 @media (max-width: 1200px) {
