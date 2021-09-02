@@ -1,4 +1,4 @@
- @import url(../css/styles.css);
+ @import url(/css/styles.css);
  /* Project Page Styles */
  .work-active {
      color: rgba(115, 128, 141, 1);
