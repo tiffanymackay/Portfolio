@@ -370,8 +370,18 @@ small {
 
 }
 @media (max-width: 425px) {
+    html {
+        margin: 0 auto;
+        overflow-x: hidden;
+        width: 100%;
+    }
+
     body {
         background-size: 275%;
+        margin: 0 auto;
+        overflow-x: hidden;
+        width: 100%;
+
     }
     .logo {
         max-width: 200px;
