@@ -1,11 +1,13 @@
  @import url(/css/styles.css);
+
  /* Project Page Styles */
+ body {
+    background-image: none;
+ }
  .work-active {
      color: rgba(115, 128, 141, 1);
  }
- .body-project {
-    background-image: none;
-  }
+
 .project-container {
     max-width: 80%;
     margin: auto;
