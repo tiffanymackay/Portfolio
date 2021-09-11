@@ -1,5 +1,4 @@
-        
-        
+
         //Back to top button
         const myButton = document.getElementById("button");
         const display = document.querySelector("#button");
