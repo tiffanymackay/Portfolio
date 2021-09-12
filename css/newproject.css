@@ -1,0 +1,21 @@
+@import url(/css/styles.css);
+
+/* Project Page Styles */
+body {
+   background-image: none;
+}
+
+.left-project {
+    text-align: left;
+}
+
+.before-after-background {
+    background-color: #CFF1EA;
+}
+.before-after-background-body {
+    background-color: #CFF1EA;
+}
+.before-after-container {
+    max-width: 80%;
+    margin: auto;
+}
