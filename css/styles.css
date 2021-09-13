@@ -133,9 +133,12 @@ ul a:hover {
     padding-bottom: 30px;
 }
 .text-wall {
-    width: 50%;
+    width: 70%;
     margin: auto;
     padding: 20px 0 30px 0;
+}
+.about-photo {
+    width: 275px;
 }
 /* Portfolio Styles */
 .work-container {
