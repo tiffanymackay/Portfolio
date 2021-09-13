@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/jpg" href="icons/laptop.png"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="/css/project.css" rel="stylesheet">
-    <link href="/css/project.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+    <link href="/css/newproject.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f535da427f.js" crossorigin="anonymous"></script>
-    <title>Tiffany Mackay's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Recipe blog website by Tiffany Mackay - Portfolio</title>
 </head>
-<body class="body-project">
+<body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid px-md-5">
@@ -55,100 +56,116 @@
             </div>
           </nav>
     </header>
-
-    <div class="project-container">
-       <a href="/work.html"><small><i class="fas fa-arrow-left"></i> All work</small></a>
-
-        <h2 class="responsive-recipe-h2">
-            Responsive Recipe
+    <div class="before-after-container">
+        <a href="/work.html"><small><i class="fas fa-arrow-left"></i> All work</small></a>
+        <h2 class="recipe-blog-h2">
+            Recipe Blog Website
         </h2>
         <p class="left-project">
             GitHub Link:
             <span class="github-link"> 
-                <span class="artist-portfolio-github-link">
-                    <a href="https://tiffanymackay.github.io/responsive-recipe/index.html" target="_blank">
-                        Batter Chatter ↗️ 
+                <span class="recipe-blog-github-link">
+                    <a href="#" target="_blank">
+                        ↗️ Repository Coming Soon
                     </a>
                 </span>
             </span>
             <br>
-            <div class="responsive-recipe-text"> 
-                A responsive web page for a Batter Chatter recipe from concept to delivery. I created napkin sketches using my digital tablet, a Figma mockup of a high fidelity wireframe, then coded using HTML and CSS in Visual Studio Code. I made it live by uploading to GitHub. For the responsiveness, I created different break points to implement media queries. The code is semantic and I use comments for improved organization. Flexbox and grid were both used for different sections of the page. 
+            Hosted Link: 
+            <a href="#" target="_blank">
+                🍫 Coming Soon
+            </a>
+            <br>
+            <div class="recipe-blog-text"> 
+                A Recipe blog website created from napkin sketches, a mockup, HTML and CSS. I created various sketches and two mockups before settling on a design. This process aided me in finalizing design decisions and trying new ideas. The main sections of the portfolio page is made with grid layout but I used flex-box in the navigation. 
             </div>
-            <br><br>
-            <strong class="responsive-recipe-process">
-                💡 Process: Mood board > Napkin Sketches > Wireframe > Code > Validate > Launch
+            <br>
+            <strong class="recipe-blog-process">
+                💡 Process: Mood board > Napkin Sketches > Mockup > Code > Validate > Launch
             </strong>
         </p>
         <br>
     </div>
     <div class="before-after-container">
         <h3 class="left-project">
-            Before and After
+            Overview
         </h3>
     </div>
     <div class="before-after-background">
-            <div class="before-after">
-                <img src="/images/recipe-images/recipe-before.png" alt="Recipe before sketches" class="responsive-recipe-img1">
-                <img src="/images/recipe-images/recipe-after.png" alt="Recipe after final" class="responsive-recipe-img2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto d-block text-center">
+                    <img src="/images/recipe-images/mockup.png" alt="Recipe website mockup" class="img-fluid py-5">
+                </div>
             </div>
+        </div>
     </div>
     <div class="before-after-container">
         <h3 class="left-project">
-            Screens
+            Process
         </h3>
     </div>
     <div class="before-after-background-body">
-        <div class="img-process">
-            <figure><img src="/images/recipe-images/recipe-mockup.png" alt="Mockup of recipe design" class="img3">
-                <figcaption class="responsive-recipe-figure1">
-                    Figma mockup and organization. 
-                    <br>I worked through different designs until both the image and recipe text were the primary focus of the page. 
-                </figcaption>
-            </figure>
-            <figure><img src="/images/recipe-images/recipe-html.png" alt="The html coding" class="img4">
-                <figcaption class="responsive-recipe-figure2">
-                    HTML in Visual Studio Code 
-                </figcaption>
-            </figure>
-            <figure><img src="/images/recipe-images/recipe-styles.png" alt="The css styling of the recipe page" class="img5">
-                <figcaption class="responsive-recipe-figure3">
-                    CSS in Visual Studio Code. 
-                    <br>I used a style reset to void any browser styling.
-                </figcaption>
-            </figure>
+        <div class="container">
+            <div class="col-lg-8 mx-auto d-block text-center">
+                <figure><img src="/images/recipe-images/recipe-before.png" alt="Sketches for Recipe website" class="figure-img img-fluid rounded-3">
+                    <figcaption class="figure-caption pb-3">
+                        Before creating a design, I created napkin sketches and mood boards for inspiration.
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="/images/recipe-images/figma.png" alt="First design for Recipe website" class="figure-img img-fluid rounded-3">
+                    <figcaption class="figure-caption pb-3">
+                        First design in figma after initial research stage.
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="/images/recipe-images/recipe-page.png" alt="Recipe page template" class="figure-img img-fluid rounded-3">
+                    <figcaption class="figure-caption pb-3">
+                        Final mockup of recipe blog page.  
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="/images/recipe-images/final.png" alt="Final recipe design" class="figure-img img-fluid rounded-3">
+                    <figcaption class="figure-caption pb-3">
+                        The final design before coding.
+                    </figcaption>
+                </figure>
+                
+            </div>
         </div>
     </div>
     <div class="before-after-container">
         <h3 class="left-project">
             Results
         </h3>
-            <p class="left-project">
-                <span class="responsive-recipe-results">
-                    ☑️ Focused on creating a responsive page using flex-box and media queries
-                    <br>☑️ Implemented organization and structure for a streamlined process
-                </span>
-            </p>
+            <div class="left-project">
+                <p class="text-start">
+                    ☑️ Focused on creating a multiple page design in Figma to code using HTML, CSS, and JS.
+                        <br>☑️ Implemented organization and structure for a streamlined process
+                </p>
+            </div>
             <br>
         </ul>
     </div>
     <button id="button" class="display-button"><i class="fas fa-arrow-up"></i></button>
-
     <footer>
-        <p class="footer-text">Tiffany Mackay Design</p>
-        <div class="footer-links">
-            <ul>
-                <li><a href="/index.html/#about-link">About</a></li>
-                <li><a href="/index.html/#work-link">Work</a></li>
-                <li><a href="mailto:tiffanymackay01@gmail.com">Contact</a></li>
-                <li><a href="https://www.linkedin.com/in/tiffanylmackay/" target="_blank"><i class="fab fa-linkedin"></i></i></a></li>
-                <li><a href="https://www.instagram.com/tiffanyyy.tech/" target="_blank"><i class="fab fa-instagram"></i></i></a></li>
-            </ul>
+        <div class="footer-links py-3">
+          <ul>
+            <li><a href="about.html" title="About page">About</a></li>
+            <li><a href="work.html"title="Work page">Work</a></li>
+            <li><a href="contact.html" title="Contact page">Contact</a></li>
+            <li><a href="https://www.linkedin.com/in/tiffanylmackay/" title="Linked In" target="_blank"><i class="fab fa-linkedin"></i></i></a></li>
+            <li><a href="https://www.instagram.com/tiffanyyy.tech/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></i></a></li>
+        </ul>
         </div>
-        <small>Copyright © 2021. Tiffany Mackay. All rights reserved.</small>
+        <small class="py-4">
+                This website is designed and coded by UX Web and Brand Designer <a href="https://www.linkedin.com/in/tiffanylmackay/" target="_blank">Tiffany Mackay</a>, and is <a href="https://github.com/tiffanymackay/Croissant" target="_blank">open-sourced</a>.
+                <br>© 2021 Tiffany Mackay
+        </small>
     </footer>
-    <script src="/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script type="module" src="/js/responsiveRecipe.js"></script>
+    <script src="/js/script.js"></script>
+    <script type="module" src="/js/RecipePortfolio.js"></script>
 </body>
 </html>
