@@ -140,6 +140,16 @@ ul a:hover {
 .about-photo {
     width: 275px;
 }
+.fun-fact-title {
+    text-align: center;
+}
+.fun-facts {
+    padding: 0px;
+}
+.fun-facts li {
+    list-style-type: none;
+}
+
 /* Portfolio Styles */
 .work-container {
      padding-top: 60px;
@@ -208,16 +218,6 @@ small {
     list-style-type: none;
 }
 
-/*About page styles */
-.fun-fact-title {
-    text-align: left;
-}
-.fun-facts {
-    padding: 0px;
-}
-.fun-facts li {
-    list-style-type: none;
-}
 
 /* Back to top button styles */
 .display-button {
