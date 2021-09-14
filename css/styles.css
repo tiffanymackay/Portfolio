@@ -253,6 +253,9 @@ small {
     header {
         padding-bottom: 50px;
     }
+    .logo {
+        max-width: 350px;
+    }
     h2 {
         font-size: 3rem;
         margin: 0;
@@ -294,7 +297,9 @@ small {
     body {
         background-size: 150%;
     }
-    
+    .logo {
+        max-width: 300px;
+    }
     h2 {
         font-size: 2rem;
     }
