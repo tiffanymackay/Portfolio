@@ -4,6 +4,12 @@
 body {
    background-image: none;
 }
+.technologies {
+    background:#FFF5F2;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 2px; 
+}
 
 .left-project {
     text-align: left;
