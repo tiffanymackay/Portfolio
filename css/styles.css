@@ -130,7 +130,6 @@ ul a:hover {
 /* About Styles */
 .about {
     padding-top: 60px;
-    padding-bottom: 30px;
 }
 .text-wall {
     width: 70%;
@@ -148,6 +147,7 @@ ul a:hover {
 }
 .fun-facts li {
     list-style-type: none;
+    text-align: center;
 }
 
 /* Portfolio Styles */
