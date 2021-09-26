@@ -101,9 +101,8 @@ p {
 .button:hover {
     background-color: #E1DAEE;
 }
-.technologies {
-    text-align: center;
-}
+
+
 .technology-icon {
     max-width: 60%;
 }
