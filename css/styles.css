@@ -82,6 +82,13 @@ p {
     width: 400px;
     border-radius: 5px;
 }
+.waving {
+    transition:ease-in-out 0.1s;
+}
+.waving:hover {
+    transform:rotate(50deg);
+}
+
 .hello {
     margin-top: 0px;
 }
