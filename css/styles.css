@@ -83,10 +83,10 @@ p {
     border-radius: 5px;
 }
 .waving {
-    transition:ease-in-out 0.1s;
+    transition: 100ms;
 }
 .waving:hover {
-    transform:rotate(50deg);
+    transform:rotate(30deg);
 }
 
 .hello {
