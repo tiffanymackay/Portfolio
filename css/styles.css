@@ -303,6 +303,12 @@ small {
     body {
         background-size: 150%;
     }
+    header {
+        padding-bottom: 0px;
+    }
+    nav li {
+        text-align: center;
+    }
     .logo {
         max-width: 300px;
     }
@@ -371,7 +377,10 @@ small {
         justify-content: center;       
         flex-wrap: wrap;
     }
-    div li {
+    footer div ul {
+        max-width: 100% !important;
+    }
+    footer div li {
         text-decoration: none;
         text-transform: uppercase;
         display: inline-flex;
@@ -379,6 +388,14 @@ small {
         align-items: center;
         justify-content: space-around;
         padding: 20px;
+
+    }
+  
+    .fun-facts li {
+        list-style-type: none;
+        text-align: center !important;
+        padding-bottom: 5px;
+        text-transform: none;
     }
 
 }
