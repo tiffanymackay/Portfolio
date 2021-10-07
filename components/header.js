@@ -1,4 +1,4 @@
-class Header extends HTMLElement {
+const Header extends HTMLElement {
     constructor() {
       super();
     }
