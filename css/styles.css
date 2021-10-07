@@ -78,6 +78,9 @@ p {
 .alignment {
     text-align: center;
 }
+.bio {
+    max-width: 1200px !important;
+}
 .profile-img {
     width: 325px;
     border-radius: 5px;
