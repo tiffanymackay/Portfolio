@@ -97,7 +97,7 @@ p {
 .hello {
     margin-top: 0px;
 }
-.button {
+.primary-button {
     background: #C6A5BE;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
     cursor: pointer;
@@ -110,8 +110,21 @@ p {
     font-weight: 600;
     border-radius: 5px;
 }
-.button:hover {
+.primary-button:hover {
     background-color: #FFE1D5;
+}
+.button {
+    background: #C6A5BE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+    cursor: pointer;
+    border: none; 
+    padding: 10px 20px;
+    margin: 10px 10px 0px 10px;
+    text-decoration: none;
+    color: #000 !important;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
 }
 .secondary-button {
     cursor: pointer;
