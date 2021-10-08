@@ -99,7 +99,6 @@ p {
 }
 .primary-button {
     background: #C6A5BE;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
     cursor: pointer;
     border: none; 
     padding: 10px 20px;
@@ -112,10 +111,10 @@ p {
 }
 .primary-button:hover {
     background-color: #FFE1D5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .button {
-    background: #C6A5BE;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+    background: #C6A5BE; 
     cursor: pointer;
     border: none; 
     padding: 10px 20px;
@@ -125,6 +124,9 @@ p {
     font-size: 1rem;
     font-weight: 600;
     border-radius: 5px;
+}
+.button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .secondary-button {
     cursor: pointer;
@@ -139,6 +141,7 @@ p {
 }
 .secondary-button:hover {
     background-color: #FFE1D5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .technology-icon {
@@ -158,7 +161,7 @@ a {
     font-weight: 600;
 }
 ul a:hover {
-    color: #E6704D !important;
+    color: #C6A5BE !important;
 }
 .ig-img:hover {
     filter: opacity(50%);
