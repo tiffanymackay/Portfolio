@@ -19,7 +19,7 @@ class Header extends HTMLElement {
             <a class="nav-link" title="Linked In Link" href="https://www.linkedin.com/in/tiffanylmackay/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </li>
             <li class="nav-item px-1">
-            <a class="nav-link" title="Instagram Link" href="https://www.instagram.com/tiffanyyy.tech/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="nav-link" title="Instagram Link" href="https://www.instagram.com/tiffanyyylizzz/" target="_blank"><i class="fab fa-instagram"></i></a>
             </li>
             <li class="nav-item px-1">
             <a class="nav-link" title="Twitter Link" href="https://twitter.com/tiffanyyy_tech" target="_blank"><i class="fab fa-twitter"></i></a>
