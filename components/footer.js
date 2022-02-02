@@ -14,6 +14,7 @@ class Footer extends HTMLElement {
                     <li><a href="https://www.linkedin.com/in/tiffanylmackay/" title="Linked In" target="_blank"><i class="fab fa-linkedin"></i></i></a></li>
                     <li><a href="https://www.instagram.com/tiffanyyy.tech/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></i></a></li>
                     <li><a title="Twitter Link" href="https://twitter.com/tiffanyyy_tech" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a title="Dribbble Link" href="https://dribbble.com/tiffanyyylizzz" target="_blank"><i class="fab fa-dribbble-square"></i></a></li>
                     <li><a title="Github Link" href="https://github.com/tiffanymackay" target="_blank"><i class="fab fa-github-square"></i></a></li>
                 </ul>
             </div>
