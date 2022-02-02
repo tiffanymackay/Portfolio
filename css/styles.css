@@ -232,7 +232,7 @@ footer {
     background-color: #CFF1EA;
     text-align: center;
     padding: 30px;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 .footer-links ul {
     list-style-type: none;
@@ -419,7 +419,7 @@ small {
     }
     footer div li {
         text-decoration: none;
-        text-transform: uppercase;
+        text-transform: lowercase;
         display: inline-flex;
         flex-direction: row;
         align-items: center;
