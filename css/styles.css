@@ -47,13 +47,13 @@ nav li img {
 /* Page Text Styles */
 h2 {
     font-size: 3rem !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
 }
 .project-h2 {
     font-size: 3rem;
 }
 h3 {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 2rem !important;
     line-height: 40px;
 }
