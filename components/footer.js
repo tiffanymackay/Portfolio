@@ -9,7 +9,7 @@ class Footer extends HTMLElement {
             <div class="footer-links py-2">
                 <ul>
                     <li><a href="/about.html" title="About page">About</a></li>
-                    <li><a href="/work.html"title="Work page">Work</a></li>
+                    <li><a href="/work.html"title="Work page">Coding</a></li>
                     <li><a href="https://www.linkedin.com/in/tiffanylmackay/" title="Linked In" target="_blank"><i class="fab fa-linkedin"></i></i></a></li>
                     <li><a href="https://www.instagram.com/tiffanyyy.tech/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></i></a></li>
                     <li><a title="Twitter Link" href="https://twitter.com/tiffanyyy_tech" target="_blank"><i class="fab fa-twitter"></i></a></li>

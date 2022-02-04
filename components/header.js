@@ -10,7 +10,7 @@ class Header extends HTMLElement {
             <a class="nav-link" title="About page" href="/about.html">About</a>
             </li>
             <li class="nav-item px-1">
-            <a class="nav-link" title="Work page" href="/work.html">Work</a>
+            <a class="nav-link" title="Work page" href="/work.html">Coding</a>
             </li>
             <li class="nav-item px-1">
             <a class="nav-link" title="Linked In Link" href="https://www.linkedin.com/in/tiffanylmackay/" target="_blank"><i class="fab fa-linkedin"></i></a>
