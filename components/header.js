@@ -13,9 +13,6 @@ class Header extends HTMLElement {
             <a class="nav-link" title="Work page" href="/work.html">Work</a>
             </li>
             <li class="nav-item px-1">
-            <a class="nav-link" title="Contact page" href="/contact.html">Contact</a>
-            </li>
-            <li class="nav-item px-1">
             <a class="nav-link" title="Linked In Link" href="https://www.linkedin.com/in/tiffanylmackay/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </li>
             <li class="nav-item px-1">
