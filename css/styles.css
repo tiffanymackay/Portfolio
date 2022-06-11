@@ -54,13 +54,10 @@ h2 {
     font-weight: 700 !important;
     color: #8F7AB4;
 }
-.project-h2 {
-    font-size: 3rem;
-}
+
 h3 {
     font-weight: 400;
-    font-size: 2rem !important;
-    line-height: 40px;
+    font-size: 1.5rem !important;
 }
 
 h4 {
@@ -72,11 +69,10 @@ h4 {
 h5 {
     font-weight: 400;
     font-size: 2rem;
-    text-align: center;
     padding-top: 20px;
 }
 p {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 
@@ -164,7 +160,7 @@ li a {
 }
 a {
     text-decoration: none !important;
-    color: #467568 !important;
+    color: #000 !important;
     font-weight: 600;
 }
 ul a:hover {
@@ -175,27 +171,16 @@ ul a:hover {
 }
 
 /* About Styles */
-.about {
-    padding-top: 60px;
-}
-.text-wall {
-    width: 70%;
+
+.about-container {
+    max-width: 1100px !important;
     margin: auto;
     padding: 20px 0 30px 0;
 }
-.about-photo {
-    width: 275px;
+.about-img {
+    max-width: 100%;
 }
-.fun-fact-title {
-    text-align: center;
-}
-.fun-facts {
-    padding: 0px;
-}
-.fun-facts li {
-    list-style-type: none;
-    text-align: center;
-}
+
 
 /* Portfolio Styles */
 .work-container {
@@ -213,33 +198,13 @@ ul a:hover {
 .view-more {
     text-align: center;
 }
-/* Quote Styles */
-.quote {
-    background-color: #CFF1EA;
-    padding-top: 30px;
-}
-.quote-mark {
-    display: block;
-    margin: auto;
-    height: 1rem;
-}
-q {
-    quotes: none;
-    display: block;
-    font-style: italic;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-.author {
-    padding-top: 20px;
-}
+
 
 /* Footer Styles */
 footer {
     background-color: #E1DAED;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     text-transform: lowercase;
 }
 .footer-links ul {
@@ -301,24 +266,10 @@ small {
     header {
         padding-bottom: 50px;
     }
-    .logo {
-        max-width: 350px;
-    }
-    h2 {
-        font-size: 3rem;
-        margin: 0;
-    }
-    .hello {
-        text-align: center;
-        padding-bottom: 20px;
-    }
-    h3 {
-        text-align: center;
-        line-height: normal;
-    }
-    p {
-        text-align: center;
-    }
+
+
+
+
 
     nav li {
         padding: 10px;
@@ -351,43 +302,9 @@ small {
     nav li {
         text-align: center;
     }
-    .logo {
-        max-width: 300px;
-    }
-    h2 {
-        font-size: 2rem;
-    }
-    h3 {
-        font-size: 1.25rem;
-    }
-    h4 {
-        font-size: 1.5rem;
-        padding-bottom: 20px;
-    }
-    .about {
-        padding-top: 60px;
-    }
-    .quote-mark {
-        height: 20px;
-    }
     
 }
 
-@media (max-width: 925px) {
-    body {
-        background-size: 200%;
-    }
-    .logo {
-        max-width: 270px;
-    }
-    .intro-img {
-        text-align: center;
-    }
-    .intro-text {
-        padding-top: 30px;
-        padding-left: 0;
-    }
-}
 
 
 @media (max-width: 630px) {
@@ -397,24 +314,7 @@ small {
     header {
         padding: 10px;
     }
-    .technology-icon {
-        max-width: 20%;
-    }
-    q {
-        padding: 50px;
-    }
-    .container {
-        width: 80%;
-    }
-    .text-wall {
-        width: 89%;
-    }
-    .logo {
-        max-width: 300px !important;
-    }
-    .container img {
-        max-width: 90%;
-    }
+
     .footer-links {
         display: flex;
     }
@@ -452,20 +352,10 @@ small {
     }
 
     body {
-        background-size: 275%;
         margin: 0 auto;
         overflow-x: hidden;
         width: 100%;
 
     }
-    .logo {
-        max-width: 200px !important;
-    }
-    h2 {
-        font-size: 2rem !important;
-    }
-    h3 {
-        font-size: 1.5rem !important;
-    }
-    
+
 }
