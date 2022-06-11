@@ -6,14 +6,15 @@ class Header extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
         <ul class="navbar-nav">
+      
             <li class="nav-item px-1">
-              <a class="nav-link" title="About page" href="https://dribbble.com/tiffanyyylizzz">design</a>
+            <a class="nav-link" title="About page" href="/about.html">about</a>
             </li>
             <li class="nav-item px-1">
-            <a class="nav-link" title="About page" href="/about.html">About</a>
+            <a class="nav-link" title="Work page" href="/work.html">work</a>
             </li>
             <li class="nav-item px-1">
-            <a class="nav-link" title="Work page" href="/work.html">Coding</a>
+              <a class="nav-link" title="dribbble page" href="https://dribbble.com/tiffanyyylizzz" target="_blank"><i class="fa-brands fa-dribbble-square"></i></a>
             </li>
             <li class="nav-item px-1">
             <a class="nav-link" title="Linked In Link" href="https://www.linkedin.com/in/tiffanylmackay/" target="_blank"><i class="fab fa-linkedin"></i></a>

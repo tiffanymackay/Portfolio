@@ -7,15 +7,28 @@ class Footer extends HTMLElement {
       this.innerHTML = `
         <footer>
             <div class="footer-links py-2">
-                <ul>
-                    <li><a href="https://dribbble.com/tiffanyyylizzz">Design</a></li>
-                    <li><a href="/about.html" title="About page">About</a></li>
-                    <li><a href="/work.html"title="Work page">Coding</a></li>
-                    <li><a href="https://www.linkedin.com/in/tiffanylmackay/" title="Linked In" target="_blank"><i class="fab fa-linkedin"></i></i></a></li>
-                    <li><a href="https://www.instagram.com/tiffanyyy.tech/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></i></a></li>
-                    <li><a title="Twitter Link" href="https://twitter.com/tiffanyyy_tech" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                    <li><a title="Dribbble Link" href="https://dribbble.com/tiffanyyylizzz" target="_blank"><i class="fab fa-dribbble-square"></i></a></li>
-                    <li><a title="Github Link" href="https://github.com/tiffanymackay" target="_blank"><i class="fab fa-github-square"></i></a></li>
+                <ul> 
+                  <li class="nav-item px-1">
+                  <a class="nav-link" title="About page" href="/about.html">about</a>
+                  </li>
+                  <li class="nav-item px-1">
+                  <a class="nav-link" title="Work page" href="/work.html">work</a>
+                  </li>
+                  <li class="nav-item px-1">
+                    <a class="nav-link" title="dribbble page" href="https://dribbble.com/tiffanyyylizzz" target="_blank"><i class="fa-brands fa-dribbble-square"></i></a>
+                  </li>
+                  <li class="nav-item px-1">
+                  <a class="nav-link" title="Linked In Link" href="https://www.linkedin.com/in/tiffanylmackay/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  </li>
+                  <li class="nav-item px-1">
+                  <a class="nav-link" title="Instagram Link" href="https://www.instagram.com/tiffanyyylizzz/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li class="nav-item px-1">
+                  <a class="nav-link" title="Twitter Link" href="https://twitter.com/tiffanyyy_tech" target="_blank"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li class="nav-item px-1">
+                  <a class="nav-link" title="Github Link" href="https://github.com/tiffanymackay" target="_blank"><i class="fab fa-github-square"></i></a>
+                  </li>
                 </ul>
             </div>
             <small>

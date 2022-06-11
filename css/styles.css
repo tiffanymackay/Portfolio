@@ -1,11 +1,10 @@
 
 header {
-    padding: 20px 10px 100px 10px;
+    padding: 10px 0px;
+    background-color: #E1DAED;
 }
 
 body {
-    background-image: url(/images/Background.png);
-    background-repeat: no-repeat;
     margin: 0;
     background-size: contain;
     font-family: 'Montserrat', sans-serif !important;
@@ -16,8 +15,11 @@ body {
 }
 h1 {
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.2rem !important;
     text-transform: lowercase;
+    align-items: center;
+    justify-content: space-around;
+
 }
 .logo {
     max-width: 400px;
@@ -36,6 +38,8 @@ nav.header-links {
 nav li {
     text-decoration: none;
     text-transform: lowercase;
+    font-weight: 500;
+    font-size: .9rem !important;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -46,8 +50,9 @@ nav li img {
 
 /* Page Text Styles */
 h2 {
-    font-size: 3rem !important;
-    font-weight: 500 !important;
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+    color: #8F7AB4;
 }
 .project-h2 {
     font-size: 3rem;
@@ -81,7 +86,10 @@ p {
     text-align: center;
 }
 .bio {
-    max-width: 1200px !important;
+    max-width: 900px !important;
+}
+.round-profile {
+    width: 125px;
 }
 .profile-img {
     width: 325px;
@@ -114,15 +122,15 @@ p {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .button {
-    background: #C6A5BE; 
+    background: #8F7AB4; 
     cursor: pointer;
     border: none; 
     padding: 10px 20px;
     margin: 10px 10px 0px 10px;
     text-decoration: none;
-    color: #000 !important;
+    color: #fff !important;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     border-radius: 5px;
 }
 .button:hover {
@@ -229,7 +237,7 @@ q {
 
 /* Footer Styles */
 footer {
-    background-color: #CFF1EA;
+    background-color: #E1DAED;
     text-align: center;
     padding: 30px;
     text-transform: lowercase;
