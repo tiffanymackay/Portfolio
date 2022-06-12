@@ -202,7 +202,7 @@ ul a:hover {
 footer {
     background-color: #E1DAED;
     text-align: center;
-    padding: 20px;
+    padding: 10px 20px;
     text-transform: lowercase;
 }
 .footer-links ul {
