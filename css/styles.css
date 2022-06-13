@@ -38,7 +38,6 @@ nav.header-links {
 nav li {
     text-decoration: none;
     text-transform: lowercase;
-    font-weight: 500;
     font-size: .9rem !important;
     flex-direction: row;
     align-items: center;
@@ -207,11 +206,27 @@ footer {
 }
 .footer-links ul {
     list-style-type: none;
+    text-decoration: none;
+    text-transform: lowercase;
     padding: 0;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     max-width: 600px;
     margin: auto;
+}
+.nav-link {
+    font-weight: 500 !important;
+}
+
+nav li {
+    text-decoration: none;
+    text-transform: lowercase;
+    font-weight: 400;
+    font-size: .9rem !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 small {
     text-transform: none;
