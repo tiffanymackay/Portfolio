@@ -32,7 +32,7 @@ class Footer extends HTMLElement {
                 </ul>
             </div>
             <small>
-                    This website is designed and coded by <a href="https://www.linkedin.com/in/tiffanylmackay/" target="_blank">tiffany mackay</a>, and is <a href="https://github.com/tiffanymackay/Portfolio" target="_blank">open-sourced</a>.
+                    This website is designed and coded by <a href="https://www.linkedin.com/in/tiffanylmackay/" target="_blank">Tiffany Mackay</a>, and is <a href="https://github.com/tiffanymackay/Portfolio" target="_blank">open-sourced</a>.
                     <br>© 2021 Tiffany Mackay
             </small>
     </footer>
