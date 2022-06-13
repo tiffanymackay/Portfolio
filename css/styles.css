@@ -314,9 +314,6 @@ small {
 
 
 @media (max-width: 630px) {
-    body {
-        background-size: 250%;
-    }
     header {
         padding: 10px;
     }
