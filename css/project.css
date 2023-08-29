@@ -3,7 +3,9 @@
  /* Project Page Styles */
  body {
     background-image: none;
+    font-family: 'Poppins' !important;
  }
+ 
  .work-active {
      color: rgba(115, 128, 141, 1);
  }

@@ -3,6 +3,7 @@
 /* Project Page Styles */
 body {
    background-image: none;
+   font-family: 'Poppins' !important;
 }
 .technologies {
     background:#FFF5F2;
