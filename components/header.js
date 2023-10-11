@@ -14,9 +14,6 @@ class Header extends HTMLElement {
             <a class="nav-link" title="About page" href="/about.html">about</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" title="Blog" href="https://medium.com/@writingbytiff">blog</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" title="dribbble page" href="https://dribbble.com/tiffanyyylizzz" target="_blank"><i class="fa-brands fa-dribbble-square"></i></a>
             </li>
             <li class="nav-item">
