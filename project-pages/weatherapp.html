@@ -64,19 +64,21 @@
           <!-- Design Process -->
           <section class="pt-4">
               <h3>Design Process</h3>
-              <p>The design process began with wireframing the layout using Setch, focusing on user flow and the overall user experience. The UI design emphasized clarity and accessibility, with a color scheme that reflects different weather conditions to aid in visual interpretation of the forecast.</p>
+              <p>The design process began with wireframing the layout using Sketch, focusing on user flow and the overall user experience. The UI design emphasized clarity and accessibility, with a color scheme that reflects different weather conditions to aid in visual interpretation of the forecast.</p>
           </section>
   
           <!-- Development Challenges and Solutions -->
           <section class="pt-4">
               <h3>Development Challenges and Solutions</h3>
-              <p>One major challenge was handling API rate limits. This was addressed by implementing caching strategies to reduce the number of requests, thereby enhancing the app's performance and reliability.</p>
+              <p>Problem: Managing the component's state based on asynchronous API responses was tricky, particularly ensuring that the forecast data was rendered only after being fully loaded to prevent incomplete or flickering content.</p>
+
+                <p>Solution: I utilized the useState and useEffect hooks to meticulously control the loading state. By resetting the loaded state to false upon any change to props.coordinates and setting it back to true after successfully fetching the new data, I ensured a seamless user experience. This solution highlighted my understanding of React's state management and lifecycle, underscoring my ability to build responsive and reliable web applications.</p>
           </section>
   
           <!-- Results and Impact -->
           <section class="pt-4">
               <h3>Results and Impact</h3>
-              <p>The app successfully provides users with accurate and timely weather updates. User feedback has been overwhelmingly positive, with particular praise for the app's intuitive design and reliability.</p>
+              <p>The app successfully provides users with accurate and timely weather updates. User feedback has been positive, with praise for the app's intuitive design and ease of use.</p>
           </section>
   
           <!-- Conclusion and Future Directions -->
