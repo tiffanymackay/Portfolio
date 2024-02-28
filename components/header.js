@@ -8,7 +8,10 @@ class Header extends HTMLElement {
         <ul class="navbar-nav">
       
             <li class="nav-item">
-            <a class="nav-link" title="Case Studies" href="https://dribbble.com/tiffanyyylizzz">case studies</a>
+            <a class="nav-link" title="Coding page" href="/coding.html">coding</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" title="Dribbble design" href="https://dribbble.com/tiffanyyylizzz">design</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" title="About page" href="/about.html">about</a>

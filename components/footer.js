@@ -9,7 +9,10 @@ class Footer extends HTMLElement {
             <div class="footer-links py-2">
                 <ul> 
                 <li class="nav-item">
-                <a class="nav-link" title="Work page" href="https://dribbble.com/tiffanyyylizzzl">case studies</a>
+                <a class="nav-link" title="Coding page" href="/coding.html">coding</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" title="Dribbble design" href="https://dribbble.com/tiffanyyylizzz">design</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" title="About page" href="/about.html">about</a>
