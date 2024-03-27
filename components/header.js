@@ -7,15 +7,12 @@ class Header extends HTMLElement {
       this.innerHTML = `
         <ul class="navbar-nav">
       
-            <li class="nav-item">
-            <a class="nav-link" title="Coding page" href="/coding.html">Coding</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" title="Dribbble design" href="/work.html">Design</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" title="About page" href="/about.html">About</a>
-            </li>
+        <li class="nav-item">
+        <a class="nav-link" title="Strategic" href="/strategic.html">Case Studies</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" title="About page" href="/about.html">About</a>
+        </li>
             <li class="nav-item">
               <a class="nav-link" title="dribbble page" href="https://dribbble.com/tiffanyyylizzz" target="_blank"><i class="fa-brands fa-dribbble-square"></i></a>
             </li>
